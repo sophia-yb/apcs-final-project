@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  body {
+    background-color: #E6CFFF;
+    #frontbanner {
+      transform: translate(-20px, -10px);
+    }
+    #header {
+      font-family: "Single Day";
+      color: #402d21;
+      font-size: 30px;
+      transform: translate(0px, -30px);
+    }
+    #monday {
+      font-family: "Single Day";
+      color: #402d21;
+      font-size: 15px;
+      margin-left: 80px;
+    }
+    #backtomain {
+      font-family: "Single Day";
+      color: #af8266;
+      transform: translate(0px, -70px);
+
+    }
+    input[type="checkbox"] {
+      width: 2em;
+      height: 2rem;
+      accent-color: #af8266;
+    }
+    input[type=text] {
+      background-color: #E6CFFF;
+      width: 160px;
+      border: none;
+      font-family: "Single Day";
+      font-size: 20px;
+      color: #402d21;
+      border-bottom: 2px solid #af8266;
+      transform: translate(0px, -13px);
+    }
+  }
+}

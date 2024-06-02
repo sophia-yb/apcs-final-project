@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  body {
+    background-color: #E6CFFF;
+
+    #frontbanner {
+      transform: translate(-8px, -10px);
+    }
+
+    #link {
+      font-family: "Single Day";
+      transform: translate(0px, -70px);
+    }
+
+    #header {
+      font-family: "Single Day";
+      color: #402d21;
+      font-size: 30px;
+      transform: translate(0px, -30px);
+    }
+
+    #calendar {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    #calendar-header {
+      font-family: "Single Day";
+      font-size: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #402d21;
+      color: #fff;
+    }
+
+    #days {
+      font-family: "Single Day";
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #402d21;
+      color: #fff;
+    }
+
+    #calendar-body {
+      font-family: "Single Day";
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 1px;
+      background-color: #402d21;
+      transition: opacity 0.5s ease;
+      opacity: 1;
+    }
+
+    #calendar-body.fade-out {
+      opacity: 0;
+    }
+
+    #calendar-body div {
+      padding: 20px;
+      background-color: #fff;
+      text-align: center;
+      position: relative;
+    }
+
+    #calendar-body div.today {
+      background-color: #af8266;
+      color: #fff;
+    }
+
+    .change-month {
+      cursor: pointer;
+    }
+
+    #calendar-body div input {
+      font-family: "Single Day";
+      width: 60px;
+      height: 5px;
+      border: 2px solid #402d21;
+      padding: 5px;
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      text-align: center;
+    }
+  }
+}

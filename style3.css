@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  body {
+    background-color: #E6CFFF;
+
+    #frontbanner {
+      transform: translate(-8px, -10px);
+    }
+
+    #link {
+      font-family: "Single Day";
+      transform: translate(0px, -50px);
+    }
+
+    #header {
+      font-family: "Single Day";
+      color: #402d21;
+      font-size: 30px;
+      transform: translate(0px, -20px);
+    }
+    #weekdays {
+      position: relative;
+      font-family: "Single Day";
+      color: #af8266;
+      font-size: 40px;
+      text-align: center;
+    }
+    .grid-container {
+      margin: 5px;
+      display: inline-grid;
+      grid-template-columns: 100px 600px;
+      padding: 10px;
+      background-color: #402d21;
+    }
+    .grid-item {
+      font-family: "Single Day";
+      color: #402d21;
+      background-color: #f4f3ef;
+      border: 1.5px solid #402d21;
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+    input[type=text] {
+      width: 500px;
+      border: 1.5px solid #af8266;
+      font-family: "Single Day";
+      font-size: 20px;
+      color: #402d21;
+    }
+    .grid-container1 {
+      display: inline-grid;
+      grid-template-columns: 100px 600px;
+      padding: 10px;
+      background-color: #402d21;
+    }
+    .grid-item1 {
+      font-family: "Single Day";
+      color: #402d21;
+      background-color: #f4f3ef;
+      border: 1.5px solid #402d21;
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}
